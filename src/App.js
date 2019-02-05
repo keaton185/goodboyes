@@ -101,7 +101,7 @@ class App extends Component {
           <div className="container">
           <h3 className="header-text">Is it a goodboye?</h3>
           <p>Extensive market research has determined that Golden Retreivers are goodboyes,
-            upload a photo of your pupper to find out if she/he is a goodboye. 
+            upload a photo of your pupper to find out. 
           </p>
           <div className="form-group uploadFile">
             <input type="file" className="form-control-file" onChange={(e)=>this.handleImageChange(e)}></input>
@@ -113,7 +113,7 @@ class App extends Component {
           { classifierResults }
           </div>
           <p style={{paddingTop: 20}}>
-            <a style={{textDecoration: 'none', color: 'white'}} href="https://github.com/keaton185">Github </a>
+            <a style={{textDecoration: 'none', color: 'white'}} href="https://github.com/keaton185/goodboyes">Github </a>
           </p>
           <p>
             <span role="img" aria-label="canadian-flag">🇨🇦</span>
