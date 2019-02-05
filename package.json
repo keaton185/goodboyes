@@ -16,6 +16,9 @@
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.3"
   },
+  "devDependencies": {
+    "terser": "3.14.1"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
